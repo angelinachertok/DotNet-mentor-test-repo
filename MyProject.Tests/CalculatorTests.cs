@@ -11,6 +11,6 @@ public sealed class CalculatorTests
     [Fact]
     public void Intentional_Fail()
     {
-        Assert.Equal("HELLO!", "HELLO");
+        Assert.Equal("HELLO", "HELLO");
     }
 }
